@@ -1,0 +1,150 @@
+.container_main{
+	display: flex;
+	/*width:100%;*/
+	background-color: hsl(210, 46%, 95%);
+	justify-content: center;
+	/*height: 100%;*/
+	margin: 4%;
+	gap
+}
+.main{
+	height: 80%;
+}
+.container{
+	min-width: 80%;
+	max-height: 50%;
+	padding: 20px;
+
+	display: grid;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	
+
+	 grid-template-rows: repeat(2fr, 1fr);
+	grid-template-columns: repeat(4,1fr);
+	grid-template-areas: 
+	"one one two three"
+	 "four five five three";
+	 gap: 20px;
+
+
+}
+
+
+	.container_one{
+		grid-area: one;
+		background-color:hsl(263, 55%, 52%);
+		color: hsl(0, 0%, 100%);
+		 border-radius: 12px;
+		 padding-left:15px ;
+		 padding-top: 10px;
+
+	}
+	
+
+	.container_two{
+		grid-area: two;
+		background-color: hsl(217, 19%, 35%);
+		color: hsl(0, 0%, 100%);
+		 border-radius: 12px;
+		 padding-left:12px ;
+		 padding-top: 10px;
+
+
+
+
+	}
+
+	.container_three{
+		grid-area: three;
+		background-color: white;
+		 border-radius: 12px;
+		 padding-left:12px ;
+		 padding-top: 10px;
+
+
+
+	}
+
+	.container_four{
+		grid-area: four;
+		background-color: hsl(0, 0%, 100%);
+		color: black;
+		 border-radius: 12px;
+		 padding-left:12px ;
+		 padding-top: 10px;
+
+
+
+
+	}
+
+	.container_five{
+		grid-area: five;
+		background-color: hsl(219, 29%, 14%);
+		color: hsl(0, 0%, 100%);
+		border-radius: 12px;
+		padding-left:12px ;
+		padding-top: 10px;
+
+
+
+	}
+	.header{
+		color: hsl(0, 0%, 81%);
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
+		align-content: center;
+
+		
+
+
+	}
+	.bheader{
+		color: hsl(219, 29%, 14%);
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
+		 border-radius: 12px;
+
+
+	}
+
+
+#pic{
+	width: 50px;
+	height: 50px;
+	border-radius: 15px;
+
+}
+#user{
+	opacity: 50%;
+	display: flex;
+	flex-direction: column;
+
+	gap: 12px;
+}
+#blac{
+	color: hsl(0, 0%, 100%) ;
+	font-weight:bold ;
+}
+#under{
+	opacity: 50%;
+}
+#white{
+	color:hsl(219, 29%, 14%) ;
+	font-weight: bold;
+
+
+}
+#white1{
+	color:hsl(219, 29%, 14%) ;
+	opacity: 50%;
+}
+#corner{
+    border-radius:25px;
+}
+p{
+	opacity: 70%;
+}
